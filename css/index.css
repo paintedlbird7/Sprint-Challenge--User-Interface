@@ -131,31 +131,30 @@ margin-top: 10px;
 }
 
 .about-card {
-    margin-top: 25px;
+    margin-top: -15px;
     margin-bottom: 25px;
+
 
 }
 
 
-.itemContainer{
+.about-content{
     display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
     width: 800px;
-}
-
-.itemContainer{
     flex-direction: column;
-    width: 100%;
+
 }
 
-.itemContainer .item {
+
+
+.about-content .item {
     display: flex;
     flex-direction: column;
     width:370px;
     height: 420px;
-    border-bottom: 1px dotted gray;
     margin-bottom:20px;
 }
 
@@ -169,7 +168,7 @@ margin-top: 10px;
 }
 
 .about-content .about-text {
- border-bottom: 1px solid black;
+ border-bottom: 1px dotted black;
  padding-bottom: 40px;
  margin-bottom: 20px
 }
@@ -182,7 +181,19 @@ margin-top: 10px;
     cursor: pointer;
     background: white;
     border-radius: 5px;
-    border: 1px solid black;
+    border: 2px solid black;
+    
+}
+
+
+.about-content .row button {
+    padding: 10px 40px;
+    margin-top: 20px;
+    cursor: pointer;
+    background: white;
+    border-radius: 5px;
+    border: 2px solid black;
+    
 }
 
 .about-content .card button:hover {
@@ -196,6 +207,10 @@ margin-top: 10px;
 
 .card {
     margin: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
   }
   
   .row {
@@ -210,10 +225,27 @@ margin-top: 10px;
     flex-direction: column;
     flex-basis: 100%;
     flex: 1;
+    margin-bottom: 30px;
+    margin-top: px;
+  }
+    
+
+    .striped-border {
+        border-bottom: 1px dotted black;
+        /* border: 1px dotted #000; */
+        width: 85%;
+        margin: auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    
+
+
+
+
   }
   
    .topleft-column {
-    /* background-color: orange; */
     height: 100px;
   }
   
@@ -222,7 +254,6 @@ margin-top: 10px;
   }
 
   .topright-column {
-    /* background-color: blue; */
     height: 100px;
   }
 
@@ -241,7 +272,7 @@ margin-top: 10px;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    /* border-bottom: 1px dashed black; */
 }
 
 .top-content .text-container {
@@ -256,7 +287,7 @@ margin-top: 10px;
 
 .middle-content {
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    /* border-bottom: 1px dashed black; */
 }
 
 .middle-content h2 {
@@ -426,6 +457,7 @@ margin-top: 10px;
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+    
 }
 
 footer {
