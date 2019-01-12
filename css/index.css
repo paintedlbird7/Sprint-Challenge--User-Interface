@@ -189,7 +189,6 @@ margin-top: 10px;
 
 .card {
     margin: 15px;
-    background-color: red;
   }
   
   .row {
@@ -206,13 +205,12 @@ margin-top: 10px;
     flex: 1;
   }
   
-  .topleft-column {
+   .topleft-column {
     /* background-color: orange; */
     height: 100px;
   }
   
   .bottomright-column {
-    background-color: orange;
     height: 100px;
   }
 
@@ -222,7 +220,6 @@ margin-top: 10px;
   }
 
   .bottomleft-column {
-    background-color: green;
     height: 100px;
   }
 
