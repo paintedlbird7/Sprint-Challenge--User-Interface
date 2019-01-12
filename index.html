@@ -2,6 +2,11 @@
 
 <html lang="en">
 <head>
+
+        <link rel="stylesheet" href="css/animations.css">
+        <div id="object" class="slideUp">
+            <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+     
   <meta charset="utf-8">
 
   <title>Sprint Challenge - Home</title>
@@ -89,5 +94,25 @@
             </nav>
         </footer>
     </div><!-- container -->        
+    <script>
+            $(window).scroll(function() {
+              $('#logo').each(function(){
+              var imagePos = $(this).offset().top;
+          
+              var topOfWindow = $(window).scrollTop();
+                if (imagePos < topOfWindow+400) {
+                  $(this).addClass("slideUp");
+                }
+              });
+            });
+          </script>
+        
+        <script>
+            $('#animatedElement').click(function() {
+              $(this).addClass("slideUp");
+            });
+          </script>
+      
+
 </body>
 </html>
