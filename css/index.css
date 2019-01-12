@@ -167,19 +167,6 @@ margin-top: 10px;
  margin-bottom: 20px
 }
 
-.about-content .card {
-    padding: 20px;
-    border: 1px solid black;
-    width: 420px;
-    background: whitesmoke;
-    margin: 20px 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-
-
 
 
 .about-content .card button {
@@ -195,6 +182,49 @@ margin-top: 10px;
     background: black;
     color: white;
 } 
+
+
+
+
+
+.card {
+    margin: 15px;
+    background-color: red;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;  
+  }
+  
+  .card2 {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }
+  
+  .topleft-column {
+    /* background-color: orange; */
+    height: 100px;
+  }
+  
+  .bottomright-column {
+    background-color: orange;
+    height: 100px;
+  }
+
+  .topright-column {
+    /* background-color: blue; */
+    height: 100px;
+  }
+
+  .bottomleft-column {
+    background-color: green;
+    height: 100px;
+  }
 
 
 
@@ -412,3 +442,9 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+  
+
+
+
